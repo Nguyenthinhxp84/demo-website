@@ -234,3 +234,29 @@ body {
 	border-radius: 20px;
 	background: linear-gradient(to right, #5f1785, #3f51b5);
 }
+
+.footer-box .form-control {
+	box-shadow: none !important;
+	border: none;
+	border-radius: 25px;
+	max-width: 250px;
+	margin-top: 25px;
+}
+
+.footer-box .btn-primary {
+	box-shadow: none !important;
+	border: none;
+	border-radius: 25px;
+	margin-top: 30px;
+	background: linear-gradient(to right, #5f1785, #3f51b5);
+}
+
+hr {
+	background-color: #fff;
+}
+
+.copyright {
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}

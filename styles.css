@@ -267,6 +267,21 @@ hr {
 	background-color: var(--text-color);
 }
 
+.section-title {
+	width: 100vw;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 38px;
+}
+
+.section-title h2::before {
+	content: attr(data-title);
+	display: block;
+	color: var(--sub-color);
+	font-size: 32px;
+	margin-top: 20px;
+} 
+
 #menu-hs .menus-button {
 	background: linear-gradient(to right, #8135a9, #3f51b5);
 	border-radius: 10px;

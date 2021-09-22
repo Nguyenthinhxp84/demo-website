@@ -70,7 +70,7 @@ body {
 .promo-title {
 	font-size: 30px;
 	font-weight: 600;
-	margin-top: 100px;
+	margin-top: -10px;
 }
 .bottom-img {
 	width: 100%;
@@ -84,6 +84,7 @@ body {
 	vertical-align: middle;
     border-style: none;
     max-width: 100%;
+    border-radius: 20px;
 }
 
 #banner a {
@@ -119,9 +120,8 @@ body {
 	font-size: 32px;
 	margin-top: 20px;
 } 
-
-.img-fluid {
-	border-radius: 15px;
+.bottom-img {
+	width: 100%;
 }
 
 #services {
@@ -138,8 +138,8 @@ body {
 	text-align: center;
 	border: 1px solid #eee;
 	border-radius: 10px;
-	margin: 20px 10px;
-	margin-right: auto;
+	margin: 20px 5px;
+	margin-right: 5px;
 }
 
 

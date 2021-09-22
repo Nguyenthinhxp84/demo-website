@@ -260,3 +260,70 @@ hr {
 	padding-bottom: 20px;
 	text-align: center;
 }
+
+
+
+#menu-hs {
+	background-color: var(--text-color);
+}
+
+#menu-hs .menus-button {
+	background: linear-gradient(to right, #8135a9, #3f51b5);
+	border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+}
+.menu-hs-title {
+	width: 100%;
+	text-align: center;
+}
+
+.menu-hs-title .menus-button {
+	background-color: transparent;
+	margin: 10px 10px;
+	border: none;
+}
+
+.hoisach-items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 47px;
+	position: relative;
+	width: 50%;
+}
+
+.hoisach-item::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: 0;
+	border: 1px dashed #eee;
+	width: 95%;
+}
+
+.hoisach-items:hover .hoisach-item p {
+	color: var(--sub-color);
+}
+
+.hoisach-item {
+	display: flex;
+	align-items: center;
+}
+
+.hoisach-item img {
+	width: 100%;
+	margin-right: 25px;
+
+}
+.menu-item-content {
+	display: none;
+}
+
+.menu-item-content.active {
+	display: flex;
+	flex-wrap: wrap;
+}
+

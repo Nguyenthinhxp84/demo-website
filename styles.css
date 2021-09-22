@@ -295,13 +295,13 @@ hr {
 
 .hoisach-item::before {
 	content: "";
-	display: block;
-	position: absolute;
-	left: 15px;
-	right: 15px;
-	bottom: 0;
-	border: 1px dashed #eee;
-	width: 95%;
+    display: block;
+    position: absolute;
+    left: 45px;
+    right: 45px;
+    bottom: 0;
+    border: 1px dashed #eee;
+    width: 56%;
 }
 
 .hoisach-items:hover .hoisach-item p {

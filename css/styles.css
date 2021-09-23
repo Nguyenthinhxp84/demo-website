@@ -418,3 +418,8 @@ hr {
   display: flex;
   flex-wrap: wrap;
 }
+#Ebook {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}

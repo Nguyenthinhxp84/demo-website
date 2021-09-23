@@ -71,7 +71,7 @@ body {
 }
 
 .promo-title {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 600;
 	margin-top: -10px;
 }
@@ -103,8 +103,8 @@ body {
 #banner h4 {
 	color: #fff;
 	text-decoration: none;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 10px;
+    margin-right: 10px;
 	text-align: justify;
 	font-size: 15px;
     font-weight: 400;}

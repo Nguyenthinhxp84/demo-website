@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&display=swap');
+
+
 :root {
 	--main-color: #3f51b5;
 	--sub-color: #EAA023;
@@ -127,8 +130,9 @@ body {
 	content: attr(data-title);
 	display: block;
 	color: var(--sub-color);
-	font-size: 32px;
+	font-size: 50px;
 	margin-top: 20px;
+	font-family: 'Birthstone Bounce', cursive;
 } 
 .bottom-img {
 	width: 100%;
@@ -244,7 +248,7 @@ body {
     margin-right: 10px;
     text-align: justify;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /*-------------------Footer----------------*/
@@ -331,8 +335,9 @@ hr {
 	content: attr(data-title);
 	display: block;
 	color: var(--sub-color);
-	font-size: 32px;
+	font-size: 50px;
 	margin-top: 20px;
+	font-family: 'Birthstone Bounce', cursive;
 } 
 
 #menu-hs .menus-button {

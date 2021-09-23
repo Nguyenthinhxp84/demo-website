@@ -234,8 +234,17 @@ body {
 }
 
 
-#dangtest {
+#thesinhvien {
 	background: #f8f9fa;
+}
+
+#thesinhvien h4 {
+	font-size: 15px;
+	margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 /*-------------------Footer----------------*/

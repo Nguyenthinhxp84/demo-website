@@ -183,6 +183,10 @@ body {
 	color: #fff;
 }
 
+.btn-button a:hover {
+	text-decoration: none;
+	background: transparent;
+}
 .about-title {
 	font-size: 30px;
 	font-weight: 600;
@@ -302,7 +306,6 @@ hr {
 }
 
 
-
 #menu-hs {
 	background-color: var(--text-color);
 }
@@ -333,52 +336,44 @@ hr {
 	text-align: center;
 }
 
-.menu-hs-title .menus-button {
-	background-color: transparent;
+.menu-hs-title .menus-button {	
 	margin: 10px 10px;
-	border: none;
+	border-radius: 20px;
+}
+
+.menu-hs-title .menus-button.active {
+	color: red;
+	border-radius: 20px;
+
 }
 
 .hoisach-items {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 47px;
-	position: relative;
-	width: 50%;
-}
-
-.hoisach-item::before {
-	content: "";
-    display: block;
-    position: absolute;
-    left: 45px;
-    right: 45px;
-    bottom: 0;
-    border: 1px dashed #eee;
-    width: 56%;
-}
-
-.hoisach-items:hover .hoisach-item p {
-	color: var(--sub-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 47px;
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 1px 1px;
 }
 
 .hoisach-item {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;   
 }
+
 
 .hoisach-item img {
-	width: 100%;
-	margin-right: 25px;
-
+    width: 100%;
+    border-radius: 10px;
 }
+
 .menu-item-content {
-	display: none;
+  display: none;
 }
 
 .menu-item-content.active {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-

@@ -195,7 +195,7 @@ body {
 }
 
 #social {
-	background: linear-gradient(to right, #5f1785, #3f51b5);
+	background: linear-gradient(to right, #3f51b5, #5f1785);
 	padding-bottom: 50px;
 	padding-top: 30px;
 	color: #fff;
@@ -228,7 +228,7 @@ body {
 /*-------------------Footer----------------*/
 
 #footer {
-	background-image: linear-gradient(to right, #3f51b5, #5f1785);
+	background-image: linear-gradient(to right, #5f1785, #3f51b5);
 	color: #fff;	
 }
 

@@ -48,6 +48,19 @@ body {
  	float: inherit;
  }
 
+.dropdown-menu {
+	background-image: linear-gradient(to right, #3f51b5, #5f1785);
+	border: 1px solid #fff;
+}
+
+.dropdown-menu a:hover {
+	background-image: linear-gradient(to right, #3f51b5, #5f1785);
+}
+
+ .navbar-toggler-icon {
+ 	color: #fff !important;
+ }
+
  .fa-bars {
  	color: #fff;
  	font-size: 30px !important;

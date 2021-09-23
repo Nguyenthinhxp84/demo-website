@@ -141,6 +141,12 @@ body {
 
 #services {
 	padding: 80px 0;
+	text-align: justify;
+}
+
+#services p {
+	text-align: justify;
+	margin-top: 30px;
 }
 
 .service-img {
@@ -216,6 +222,7 @@ body {
 	padding-bottom: 50px;
 	padding-top: 30px;
 	color: #fff;
+	text-align: justify;
 }
 
 .social-title {
@@ -237,7 +244,6 @@ body {
 #social a {
 	color: #fff;
 }
-
 
 #thesinhvien {
 	background: #f8f9fa;

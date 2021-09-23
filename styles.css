@@ -195,10 +195,29 @@ body {
 }
 
 #social {
-	background: #f8f9fa;
+	background: linear-gradient(to right, #5f1785, #3f51b5);
 	padding-bottom: 50px;
 	padding-top: 30px;
-	color: #000;
+	color: #fff;
+}
+
+.social-title {
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 8%;
+	text-align: center;
+}
+
+#social button {
+	box-shadow: none;
+	padding: 8px 25px;
+	border-radius: 20px;
+	margin-top: 10px;
+	background: linear-gradient(to right, #5f1785, #3f51b5);
+}
+
+#social a {
+	color: #fff;
 }
 
 
@@ -225,6 +244,17 @@ body {
 }
 
 .footer-box .fa {
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 20px;
+	background: linear-gradient(to right, #5f1785, #3f51b5);
+}
+
+.footer-box .fab {
 	margin-right: 8px;
 	font-size: 25px;
 	height: 40px;

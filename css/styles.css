@@ -329,6 +329,11 @@ body {
 
 .social-icon img {
 	width: 150px;
+
+}
+
+.social-icon a {
+	text-decoration: none;
 }
 
 /*-------------------Footer----------------*/
@@ -482,5 +487,14 @@ hr {
 	text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background: #f8f9fa;
+    background: #fff;
+}
+
+iframe {
+	text-align: center;
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+    display: table-cell;
+    
 }

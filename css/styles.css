@@ -321,10 +321,10 @@ body {
 	display: inline-block;
 	font-size: 12px;
 }
-
-
+  
 #social-media {
 	background-color: #fff;
+	margin-top: 50px;
 }
 
 .social-icon img {

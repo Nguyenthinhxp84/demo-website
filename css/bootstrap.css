@@ -770,7 +770,7 @@ pre code {
 }
 
 .offset-1 {
-  margin-left: 8.333333%;
+  margin-left: 3.333333%;
 }
 
 .offset-2 {
@@ -1026,7 +1026,7 @@ pre code {
   }
   .col-md-6 {
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+    flex: 0 0 48%;
     max-width: 50%;
   }
   .col-md-7 {

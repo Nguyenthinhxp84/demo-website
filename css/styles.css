@@ -376,18 +376,6 @@ body {
 	background: linear-gradient(to right, #5f1785, #3f51b5);
 }
 
-.footer-box1 .fab {
-	margin-right: 8px;
-	font-size: 25px;
-	height: 40px;
-	width: 40px;
-	text-align: center;
-	padding-top: 7px;
-	border-radius: 20px;
-	background: linear-gradient(to right, #5f1785, #3f51b5);
-	margin-left: 34px;
-}
-
 .footer-box .form-control {
 	box-shadow: none !important;
 	border: none;
@@ -404,6 +392,9 @@ body {
 	background: linear-gradient(to right, #5f1785, #3f51b5);
 }
 
+iframe {
+	border-radius: 5px #eee;
+}
 hr {
 	background-color: #fff;
 }

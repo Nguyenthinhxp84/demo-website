@@ -322,6 +322,15 @@ body {
 	font-size: 12px;
 }
 
+
+#social-media {
+	background-color: #fff;
+}
+
+.social-icon img {
+	width: 150px;
+}
+
 /*-------------------Footer----------------*/
 
 #footer {

@@ -507,7 +507,7 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 22px;
+  font-size: 23px;
   color: #fff !important;
   position: fixed;
   bottom: 194px;
@@ -525,3 +525,4 @@ hr {
           transform: scale(1.08);
   background-color: #0069ff;
 }
+

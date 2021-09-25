@@ -35,8 +35,9 @@ body {
 	background-image: linear-gradient(to right, #5f1785, #3f51b5);
 }
  .navbar-brand img {
- 	width: 200px;
+ 	width: 50px;
  	text-align: center;
+ 	margin-left: 40px;
  }
 
  .navbar-nav li {
@@ -67,6 +68,7 @@ body {
  .fa-bars {
  	color: #fff;
  	font-size: 30px !important;
+ 	margin-right: 25px;
  }
 
  .navbar-toggler {
@@ -354,8 +356,9 @@ body {
 }
 
 .footer-box img {
-	width: 220px;
+	width: 50px;
 	margin-bottom: 20px;
+	margin-left: 90px;
 }
 
 .footer-box h2 {

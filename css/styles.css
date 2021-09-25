@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :root {
 	--main-color: #3f51b5;
 	--sub-color: #EAA023;
@@ -32,10 +32,17 @@ body {
 }
 
 .navbar {
-	background-image: linear-gradient(to right, #5f1785, #3f51b5);
+	background: #6f42c1;
 }
- .navbar-brand img {
- 	width: 50px;
+
+.navbar h2 {
+		font-size: 30px;
+    color: #dc3545;
+    margin-left: 50px;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand img {
+ 	width: 120px;
  	text-align: center;
  	margin-left: 40px;
  }
@@ -356,7 +363,7 @@ body {
 }
 
 .footer-box img {
-	width: 50px;
+	width: 120px;
 	margin-bottom: 20px;
 	margin-left: 90px;
 }
@@ -510,11 +517,11 @@ hr {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 23px;
+  font-size: 30px;
   color: #fff !important;
   position: fixed;
   bottom: 194px;
-  right: 30px;
+  right: 10px;
   z-index: 9;
   cursor: pointer;
   -webkit-transition: all .3s ease-out 0s;

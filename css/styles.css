@@ -493,3 +493,35 @@ hr {
     margin: 100px 0;
 }
 
+.scroll-top {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  background: #4449ae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 22px;
+  color: #fff !important;
+  position: fixed;
+  bottom: 194px;
+  right: 30px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-out 0s;
+  transition: all .3s ease-out 0s;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.scroll-top:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  background-color: #0069ff;
+}

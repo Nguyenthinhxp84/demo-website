@@ -12,7 +12,7 @@
 	--Toggle-color: #0d84e2;
 }
 
-{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box ;
@@ -21,11 +21,8 @@
 body {
 	font-family: sans-serif;
 }
-.container {
-	margin: auto;
-	max-width: 1600px;
-}
-#nav-bar a {
+
+#nav-bar {
 	position: sticky;
 	top: 0;
 	z-index: 10;
@@ -33,7 +30,7 @@ body {
 }
 
 .navbar {
-	background: #6f42c1;
+		background-image: linear-gradient(to right, #3f51b5, #5f1785);
 }
 
 .navbar h2{
@@ -84,6 +81,7 @@ body {
  }
 
  /*-----------------------Banner-----------------------------*/
+
 
  #banner {
  	background-image: linear-gradient(to right, #3f51b5, #5f1785);
@@ -537,4 +535,3 @@ hr {
           transform: scale(1.08);
   background-color: #0069ff;
 }
-

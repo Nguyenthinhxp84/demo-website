@@ -4,14 +4,6 @@
 //	document.querySelector(".menu-items").classList.toggle("active")
 //})
 
-//const toP = document.querySelector('.top')
-//window.addEventListener("scroll", function(){
-//	const x = this.pageYOffset;
-//	if (x>80) {toP.classList.add("active")}
-//	else{toP.classList.remove("active")}	
-//})
-
-
 
 const menuTitle = document.querySelector(".menu-hs-title");
 menuTitle.addEventListener("click",function(x) {
@@ -33,4 +25,5 @@ menuTitle.addEventListener("click",function(x) {
 //	toggleButton.addEventListener('click', ()  {
 //	naviList.classList.toggle('active');
 //})
+
 

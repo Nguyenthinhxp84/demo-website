@@ -304,11 +304,12 @@ body {
 	margin: 100px 0;
 }
 
+
 .testimonials {
 	border-left: 4px solid #7b1798;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	margin-left: -20px;
+	margin-left: -25px;
 }
 
 .testimonials p {
@@ -316,6 +317,7 @@ body {
 	font-size: 17px;
 	text-align: justify;
 	font-family: tahoma;
+	margin-right: -15px;
 }
 
 #testimonials h2 {

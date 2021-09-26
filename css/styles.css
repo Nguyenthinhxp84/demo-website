@@ -25,17 +25,18 @@ body {
 	margin: auto;
 	max-width: 1600px;
 }
-#nav-bar {
+#nav-bar a {
 	position: sticky;
 	top: 0;
 	z-index: 10;
+	text-decoration: none;
 }
 
 .navbar {
 	background: #6f42c1;
 }
 
-.navbar h2 {
+.navbar h2{
 		font-size: 30px;
     color: #dc3545;
     margin-left: 10px;
